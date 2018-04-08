@@ -40,13 +40,13 @@ body {
 }
 
 #vh {
-    width: 30vh;
+    width: 40vh;
 }
 
 #vmin{
-    width: 25vmin;
+    width: 40vmin;
 }
 
 #vmax {
-    width: 45vmax;
+    width: 40vmax;
 }
