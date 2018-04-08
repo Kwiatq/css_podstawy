@@ -5,3 +5,23 @@ body {
 p {
     color:red;
 }
+
+#paragraf{
+    color:aqua;
+}
+
+.klasa {
+    color:yellow;
+}
+
+a, span, div {
+    background-color: blueviolet
+}
+
+li > a {
+    background-color: green;
+}
+
+ul a {
+    background-color: pink;
+}
