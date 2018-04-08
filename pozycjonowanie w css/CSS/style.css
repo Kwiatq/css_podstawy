@@ -1,0 +1,16 @@
+body {
+    background-color: yellow;
+}
+
+#pierwszy {
+    background-color: green;
+    width: 600px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#drugi {
+    background-color: blue;
+    width: 600px;
+    height:200px;
+}
