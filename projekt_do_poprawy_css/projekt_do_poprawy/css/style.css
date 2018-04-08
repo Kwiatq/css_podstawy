@@ -1,91 +1,82 @@
 body {
-  margin: 0;
-  font-family: 'Lato', sans-serif;
+    margin:0;
+    font-family: 'lato',
+        sans-serif;
 }
 
 #menu {
-  text-align: center;
-  background: #222;
-  
+    text-align: center;
+    background-color: #222;    
 }
 
 #menu .menu-item {
-  display: inline-block;
-  padding: 25px;
-  list-style: none;
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
 }
 
 #menu ul {
-  margin: 0;
+    margin:0;
 }
 
-#menu .menu-item a{
-  text-decoration: none;
-  color: #fff;
+#menu .menu-item a {
+    text-decoration: none;
+    color:white;
 }
 
-#menu .menu-item a:hover{
-  color: #999;
+#menu .menu-item a:hover {
+    color:#999;
 }
 
 #header {
-  position: relative;
-  text-align: center;
+    position: relative;
+    text-align: center;
 }
 
-#header img{
-  width: 100%;
+#header img {
+    width: 100%
 }
 
-#header #main-header-text {
-  position: absolute;
-  top: 50%;
-  font-size: 50px;
-  font-weight: 700;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  text-transform: uppercase;
-  color: #fff;
-  
+#main-header-text {
+    position: absolute;
+    top:50%;
+    font-size: 50px;
+    font-weight: 700px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-transform:uppercase;
+    color: rgba(255,255,255,1)
 }
 
 #about {
-  margin: 30px 0;
-  padding: 0 50px;
+    margin:30px 0;
+    padding: 0 50px;    
 }
 
-#about #about-header{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
+#about-header {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-#about .about-content{
-  text-align: center;
+#contact{
+    padding: 30px 50px;    
+    background-color: #222;
+    text-align: center;
+    color:white;
 }
 
-#contact {
-  padding: 30px 50px;
-  background: #222;
+#contact-content a{
+    display: inline-block;
+    list-style: none;
+    color:white;
 }
 
-#contact #contact-header{
-  font-size: 30px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #fff;
+.fab fa-facebook {
+    position: absolute;
 }
 
-#contact #contact-content {
-  text-align: center;
-  color: #fff;
-}
-
-#contact #contact-content a {
-  color: #fff;
-}
-
-#contact #contact-content a:hover {
-  color: #999;
+.fa fa-2x fa-times {
+    position: absolute;
 }
