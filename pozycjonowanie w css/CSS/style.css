@@ -3,14 +3,44 @@ body {
 }
 
 #pierwszy {
+    position:relative;
     background-color: green;
     width: 600px;
     height: 200px;
     margin-bottom: 10px;
+    
+    /* odsuniecie jednego od drugiego */
+    top:40px;
+    left:30px;
 }
 
 #drugi {
+    position: relative;
     background-color: blue;
     width: 600px;
     height:200px;
+}
+
+#trzeci{
+    /* fix pozycjonowanie w oknie przegladarki bez zmiany */
+    position: fixed;
+    background-color: mediumorchid;
+    width: 100px;
+    height: 100px;
+    
+    bottom: 10px;
+    right: 20px;
+}
+
+#pierwszy-prim {
+    background-color: red;
+}
+
+#pierwszy-absolut {
+    position:absolute;
+    background-color: aqua;
+    margin:10px;
+    bottom:5px;
+    left:5px;
+        
 }
