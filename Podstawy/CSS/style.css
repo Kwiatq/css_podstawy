@@ -2,10 +2,12 @@ p {
     color:red;
 }
 
+/* po id */
 #paragraf{
     color:aqua;
 }
 
+/* po klasie */
 .klasa {
     color:yellow;
 }
